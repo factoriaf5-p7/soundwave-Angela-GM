@@ -1,6 +1,6 @@
-import Footer from "../organisms/Footer"
-import Title from "../atoms/Title"
-import SquareIcons from "../atoms/SquareIcons"
+import Footer from "../../organisms/Footer"
+import Title from "../../atoms/Title"
+import SquareIcons from "../../atoms/SquareIcons"
 function Discover() {
   return (
     <div className="discover">

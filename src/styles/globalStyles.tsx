@@ -33,8 +33,12 @@ const GlobalStyle = createGlobalStyle`
     font-size: var(--font-size);
     background-color: var(--color-general-background);
     color: var(--white);
+    list-style: none;
+    text-decoration: none;
 
   }
+
+
 
 `;
 

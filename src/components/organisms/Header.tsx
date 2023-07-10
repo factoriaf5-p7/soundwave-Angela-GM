@@ -1,7 +1,7 @@
 import { Link, BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../templates/Home";
-import Discover from "../templates/Discover";
-import Join from "../templates/Join";
+import Home from "../pages/Home";
+import Discover from "../pages/Discover";
+import Join from "../pages/Join";
 import { styled } from "styled-components";
 
 
@@ -25,7 +25,7 @@ function Header() {
       <HeaderStyled>
         <StyledLink to="/">
           <img src="/src/assets/logo.png" alt="Logo Soundwave" /> Soundwave
-        </StyledLink>
+        </StyledLink>        
         <nav>
           <StyledLink to="/discover">Discover</StyledLink>
           <StyledLink to="/join">Join</StyledLink>
@@ -35,6 +35,8 @@ function Header() {
           <Route path="/discover" element={<Discover />} />
           <Route path="/join" element={<Join />} />
         </Routes>
+
+        
       </HeaderStyled>
     </BrowserRouter>
   );

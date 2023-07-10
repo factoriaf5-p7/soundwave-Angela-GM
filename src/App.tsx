@@ -1,13 +1,13 @@
-import Header from "./components/organisms/Header";
+import { BrowserRouter } from "react-router-dom";
+import Router from "./components/pages/routes";
+import Nav from "./components/organisms/Nav";
 
-function App() {
+const App = () => {
   return (
-    <Header/>
-    
-
+    <BrowserRouter>
+      <Nav />
+      <Router />
+    </BrowserRouter>
   );
-}
-
+};
 export default App;
-
-

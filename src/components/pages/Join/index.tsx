@@ -1,5 +1,5 @@
-import Footer from "../organisms/Footer"
-import FormJoin from "../molecules/FormJoin"
+import Footer from "../../organisms/Footer"
+import FormJoin from "../../molecules/FormJoin"
 
 
 
