@@ -31,8 +31,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: var(--font-family);
     font-size: var(--font-size);
-    background-color: var(--color-background);
-    color: var(--color-secondary);
+    background-color: var(--color-general-background);
+    color: var(--white);
+
   }
 
 `;
