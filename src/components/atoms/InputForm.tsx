@@ -4,20 +4,21 @@ const DivStyled = styled.div `
 display: flex;
 flex-direction: column;
 background-color:  #211f27;
-padding: 0px 25px;
 `
 const LabelStyled = styled.label`
 background-color:  #211f27;
 font-size: 0.8rem;
 margin-top: 1rem;
+
 `
 
 const InputStyled = styled.input`
+
 background-color:  #211f27;
 border-radius: 4px;
 border: 1px solid #2E3852;
 font-size: 0.8rem;
-padding: 8px;
+padding: 4px 12px;
 &:focus {
   border: 1px solid #596da0;
   background-color:   #2E3852;

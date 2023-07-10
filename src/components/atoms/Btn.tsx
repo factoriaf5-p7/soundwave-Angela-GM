@@ -10,6 +10,7 @@ border: none;
 transition: all .3s ease;
 font-size: 0.8rem;
 cursor: pointer;
+width: 100%;
 
 &:hover {
   background-color: #2080d8;
