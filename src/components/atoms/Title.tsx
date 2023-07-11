@@ -1,8 +1,12 @@
 import styled from "styled-components"
 
 const H1 = styled.h1`
-size: 1.4rem;
 background-color: transparent;
+font-size: 2.2rem;
+@media (width > 640px){
+  font-size: 2.6rem;
+}
+
 
 `
 

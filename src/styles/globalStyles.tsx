@@ -17,8 +17,8 @@ const GlobalStyle = createGlobalStyle`
     --color-button-hover: #2080d8;
     --color-button-focus: #2695ff;
 
-    --color-circle-pink: #412c41;
-    --color-circle-blue: #303047;
+    --color-circle-pink: rgba(65, 44, 65, 1);
+    --color-circle-blue: rgba(48, 48, 71, 1);
 
     --font-family: 'Poppins';
     --font-size: 1.2rem;
