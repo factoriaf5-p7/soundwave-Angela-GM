@@ -5,12 +5,17 @@ const NavStyle = styled.nav`
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+margin-top: 1em;
 
 & > ul {
     display: flex;
     gap: 1rem;
     align-items: center;
+& > li > a {
+    font-size: 0.8rem;
 }
+}
+
 `
 
 const Nav = () => {

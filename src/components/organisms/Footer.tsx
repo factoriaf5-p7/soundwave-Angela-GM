@@ -1,4 +1,8 @@
-
+import styled from "styled-components"
+const Img = styled.img`
+width: 18px;
+color: white;
+`
 function Footer() {
   return (
     <div className="footer">
@@ -8,10 +12,11 @@ function Footer() {
         </ul>
 
         <ul>
-            <li><img src="/src/assets/twitter.svg" /> Twitter</li>
-            <li><img src="/src/assets/square-facebook.svg" /> Facebook</li>
+            <li><Img src="/src/assets/twitter.svg" />  Twitter</li>
+            <li><Img src="/src/assets/square-facebook.svg" /> Facebook</li>
         </ul>
     </div>
+
   )
 }
 
