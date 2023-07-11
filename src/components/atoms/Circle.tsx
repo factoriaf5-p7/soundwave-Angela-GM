@@ -5,17 +5,17 @@ interface CircleProps {
   size: number;
 }
 
-const CircleStyled = styled.div<CircleProps>`
+export const CircleStyled = styled.div<CircleProps>`
   width: ${(props) => props.size}px;
   height: ${(props) => props.size}px;
   background-color: ${(props) =>
-    props.color === "pink" ? "#412c41" : "#303047"};
+    props.color === "pink" ? "var(--color-circle-pink)" : "var(--color-circle-blue)"};
   border-radius: 100%;
 `;
 
 function Circle({ color, size }: CircleProps) {
   return (
-    <CircleStyled color={color} size={size} className="circle"></CircleStyled>
+    <CircleStyled color={color} size={size} className="circle" ></CircleStyled>
   );
 }
 

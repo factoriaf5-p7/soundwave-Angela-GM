@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const Button = styled.button`
-background-color: #1761a6;
+background-color: var(--color-button-background);
 color: white;
 border-radius: 8px;
 margin: 1em 0;
@@ -10,14 +10,14 @@ border: none;
 transition: all .3s ease;
 font-size: 0.8rem;
 cursor: pointer;
-width: 100%;
+/* width: 100%; */
 
 &:hover {
-  background-color: #2080d8;
+  background-color: var(--color-button-hover);
 }
 
 &:focus {
-  background-color: #2695ff;
+  background-color: var(--color-button-focus);
 }
 
 
