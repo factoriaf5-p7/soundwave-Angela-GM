@@ -31,10 +31,14 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: var(--font-family);
     font-size: var(--font-size);
-    background-color: var(--color-general-background);
     color: var(--white);
     list-style: none;
     text-decoration: none;
+
+  }
+
+  body {
+    background-color: var(--color-general-background);
 
   }
 
