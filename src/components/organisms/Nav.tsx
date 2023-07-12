@@ -5,7 +5,7 @@ const NavStyle = styled.nav`
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-padding: 0.7em 0;
+height: 100px;
 background: transparent;
 
 

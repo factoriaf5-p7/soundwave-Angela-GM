@@ -4,16 +4,18 @@ import FormJoin from "../../molecules/FormJoin"
 
 
 
+
+
 function Join() {
   return (
-    <div className="join">
+    <section className="join">
       <div>
       <h1>Join the <span>fun</span></h1>
     <FormJoin />
       </div>
     
     <Footer />
-    </div>
+    </section>
 
   )
 }

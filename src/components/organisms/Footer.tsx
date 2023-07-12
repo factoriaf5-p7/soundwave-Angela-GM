@@ -9,7 +9,11 @@ const FOOTER = styled.footer`
 
   ul {
     display: flex;
+    flex-direction: column;
     gap: 0.5rem;
+    @media (width > 640px){
+      flex-direction: row;
+    }
 
     li {
       font-size: 0.7rem;
