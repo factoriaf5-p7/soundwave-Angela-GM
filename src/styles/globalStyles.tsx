@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
     --color-border-input: #2E3852;
     --color-border-input-focus: #596da0;
-    --pink: #bc3a80;
+    --pink: #d3007b;
     --white: #fff;
     --black: #000;
 

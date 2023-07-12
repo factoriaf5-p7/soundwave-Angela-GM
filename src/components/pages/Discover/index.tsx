@@ -1,7 +1,8 @@
 import Footer from "../../organisms/Footer"
 import Title from "../../atoms/Title"
 import SquareIcons from "../../atoms/SquareIcons"
-import { styled } from "styled-components"
+import { styled } from "styled-components";
+
 
 
 const DiscoverSection = styled.div`
@@ -29,9 +30,13 @@ width: 500px;
 `
 
 
+
+
+
 function Discover() {
   return (
     <section className="discover">
+      
       <DiscoverSection>
       <div>
         <Title text="Discover new music" />

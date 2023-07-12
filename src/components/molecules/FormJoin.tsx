@@ -15,10 +15,15 @@ const FormStyled = styled.form`
   background-color: #211f27;
   padding: 0.6rem 1.8rem;
   border-radius: 8px;
-  & > div {
+  & > div  {
     background-color: #211f27;
+    > *{
+      width: 100%;
+    }
+
     }
 `;
+
 
 
 
