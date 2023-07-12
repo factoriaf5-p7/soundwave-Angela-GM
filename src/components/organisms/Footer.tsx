@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 const FOOTER = styled.footer`
-  padding: 0.5rem 0;
+  height: 50px;
   background-color: var(--color-primary-dark);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
 
   ul {
     display: flex;

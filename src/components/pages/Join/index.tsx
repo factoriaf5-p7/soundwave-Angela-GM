@@ -11,7 +11,7 @@ position: relative;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
 
     @media (width > 648px) {
       align-content: space-around;

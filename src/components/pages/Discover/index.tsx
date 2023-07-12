@@ -6,6 +6,7 @@ import { styled } from "styled-components";
 
 
 const DiscoverSection = styled.div`
+height: calc(100vh - 150px);
 display: flex;
 justify-content: center;
 align-items: center;
@@ -16,8 +17,9 @@ flex-wrap: wrap;
 > div >  :not(.squares) {
     margin: 20px 0;
   }
-
-
+`
+const DivImage = styled.div`
+max-width: 320px;
 `
 
 const DIV = styled.div`
@@ -26,8 +28,10 @@ gap: 10px;
 
 `
 const IMG = styled.img`
-width: 500px;
+width: 100%;
 `
+
+
 
 
 
@@ -47,9 +51,9 @@ function Discover() {
         </DIV>
         <p>By joining you can benefit by listening to the latest albums released.</p>
       </div>
-      <div>
+      <DivImage>
         <IMG src="/src/assets/covers.jpg" alt="covers image" />
-      </div>
+      </DivImage>
       </DiscoverSection>
 
     

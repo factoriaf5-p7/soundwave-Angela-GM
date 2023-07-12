@@ -7,8 +7,8 @@ const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: calc(100vh - Nav ); */
-  height: 100vh;
+  height: calc(100vh - 100px );
+  /* height: 100vh; */
   position: relative;
   z-index: 0;
   overflow: hidden;
