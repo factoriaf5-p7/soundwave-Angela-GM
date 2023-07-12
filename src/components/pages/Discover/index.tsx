@@ -4,14 +4,35 @@ import SquareIcons from "../../atoms/SquareIcons"
 import { styled } from "styled-components"
 
 
+const DiscoverSection = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+flex-wrap: wrap;
+
+
+> div >  :not(.squares) {
+    margin: 20px 0;
+  }
+
+
+`
+
 const DIV = styled.div`
 display: flex;
 gap: 10px;
 
 `
+const IMG = styled.img`
+width: 500px;
+`
+
+
 function Discover() {
   return (
-    <div className="discover">
+    <section className="discover">
+      <DiscoverSection>
       <div>
         <Title text="Discover new music" />
         <DIV className="squares">
@@ -22,12 +43,14 @@ function Discover() {
         <p>By joining you can benefit by listening to the latest albums released.</p>
       </div>
       <div>
-        <img src="/src/assets/covers.jpg" alt="covers image" />
+        <IMG src="/src/assets/covers.jpg" alt="covers image" />
       </div>
+      </DiscoverSection>
 
     
-    <Footer />
-    </div>
+      <Footer />
+    </section>
+        
     
   )
 }

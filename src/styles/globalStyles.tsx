@@ -39,7 +39,6 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: var(--color-general-background);
-
   }
 
 

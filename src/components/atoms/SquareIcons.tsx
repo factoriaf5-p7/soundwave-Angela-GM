@@ -9,17 +9,9 @@ background: var(--color-primary-dark);
 padding: 0.7rem 0.8rem;
 aspect-ratio: 1/1;
 width: 100px;
-
-
-
-
 p {
   font-size: 0.7rem;
 }
-
-
-
-
 `
 
 

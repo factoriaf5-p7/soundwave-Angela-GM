@@ -1,23 +1,47 @@
-import styled from "styled-components"
+import styled from "styled-components";
+
+const FOOTER = styled.footer`
+  padding: 0.5rem 0;
+  background-color: var(--color-primary-dark);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  ul {
+    display: flex;
+    gap: 0.5rem;
+
+    li {
+      font-size: 0.7rem;
+      display: flex;
+      align-items: center;
+      gap: 0.1rem;
+    }
+  }
+`;
+
 const Img = styled.img`
-width: 18px;
-color: white;
-`
+  width: 18px;
+  color: white;
+`;
 function Footer() {
   return (
-    <div className="footer">
-        <ul>
-            <li>About Us</li>
-            <li>Contact</li>
-        </ul>
+    <FOOTER className="footer">
+      <ul>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
 
-        <ul>
-            <li><Img src="/src/assets/twitter.svg" />  Twitter</li>
-            <li><Img src="/src/assets/square-facebook.svg" /> Facebook</li>
-        </ul>
-    </div>
-
-  )
+      <ul>
+        <li>
+          <Img src="/src/assets/twitter.svg" /> Twitter
+        </li>
+        <li>
+          <Img src="/src/assets/square-facebook.svg" /> Facebook
+        </li>
+      </ul>
+    </FOOTER>
+  );
 }
 
-export default Footer
+export default Footer;
