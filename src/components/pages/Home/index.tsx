@@ -72,7 +72,7 @@ function Home() {
     <HomeContainer>
       {/* girl image */}
       <DIVIMG>
-        <img src="/public/landing-page-girl.png" alt="image hero girl" />
+        <img src="landing-page-girl.png" alt="image hero girl" />
       </DIVIMG>
 
       <DIV>

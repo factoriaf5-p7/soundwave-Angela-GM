@@ -52,7 +52,7 @@ function Discover() {
         <p>By joining you can benefit by listening to the latest albums released.</p>
       </div>
       <DivImage>
-        <IMG src="/public/covers.jpg" alt="covers image" />
+        <IMG src="covers.jpg" alt="covers image" />
       </DivImage>
       </DiscoverSection>
 
