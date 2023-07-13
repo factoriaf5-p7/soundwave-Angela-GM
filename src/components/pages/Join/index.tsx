@@ -25,12 +25,20 @@ const Title = styled.h1`
     color: var(--pink);
     font-size: 2.2rem;
   }
+  @media (width > 1024px){
+    font-size: 2.6rem;
+    font-weight: bolder;
+    span {
+      font-size: 2.6rem;
+      font-weight: bolder;
+    }
+  }
 `;
 
 const Circle1 = styled(CircleStyled)`
   position: absolute;
   z-index: -1;
-  top: -15%;
+  top: -22%;
   left: 22%;
   @media (width > 700px){
     width: 300px;

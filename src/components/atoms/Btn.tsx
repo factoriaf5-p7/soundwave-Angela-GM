@@ -2,15 +2,15 @@ import styled from "styled-components"
 
 const Button = styled.button`
 background-color: var(--color-button-background);
-color: white;
-border-radius: 8px;
-margin: 1em 0;
-padding: 4px 12px;
-border: none;
-transition: all .3s ease;
-font-size: 0.8rem;
-cursor: pointer;
-/* width: 100%; */
+    color: white;
+    border-radius: 8px;
+    margin: 1em 0;
+    padding: 9px 22px;
+    border: none;
+    transition: all .3s ease;
+    font-size: 0.5rem;
+    font-weight: 100;
+    cursor: pointer;
 
 &:hover {
   background-color: var(--color-button-hover);

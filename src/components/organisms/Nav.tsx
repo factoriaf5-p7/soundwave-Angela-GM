@@ -30,7 +30,7 @@ const Nav = () => {
         <img src="logo.png" alt="Logo Soundwave" /> 
       </Link>
       </li>
-      <li><span>Soundwave</span></li>
+      <li><Link to="/"><span>Soundwave</span> </Link></li>
 
            
         </ul>
