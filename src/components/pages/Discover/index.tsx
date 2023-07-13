@@ -13,9 +13,10 @@ align-items: center;
 gap: 1.5rem;
 flex-wrap: wrap;
 margin: 0 20%;
-/* @media (width > 1440px){
+@media (width > 1440px){
   height: calc(100vh - 150px);
-} */
+  margin: 0;
+}
 
 
 > div >  :not(.squares) {
