@@ -45,9 +45,9 @@ function Discover() {
       <div>
         <Title text="Discover new music" />
         <DIV className="squares">
-          <SquareIcons image="/public/microphone.svg" text="Charts" />
-          <SquareIcons image="/public/albums.svg" text="Albums" />
-          <SquareIcons image="/public/more.svg" text="More" />
+          <SquareIcons image="microphone.svg" text="Charts" />
+          <SquareIcons image="albums.svg" text="Albums" />
+          <SquareIcons image="more.svg" text="More" />
         </DIV>
         <p>By joining you can benefit by listening to the latest albums released.</p>
       </div>
