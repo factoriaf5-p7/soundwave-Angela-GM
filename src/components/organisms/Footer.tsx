@@ -39,7 +39,7 @@ function Footer() {
 
       <ul>
         <li>
-          <Img src="../../../public/twitter.svg" /> Twitter
+          <Img src="twitter.svg" /> Twitter
         </li>
         <li>
           <Img src="/public/square-facebook.svg" /> Facebook
